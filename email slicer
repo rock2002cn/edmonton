@@ -1,0 +1,7 @@
+email=input('what is your email addrss?:').strip()
+index=email.index('@')
+username=email[:index]
+domain=email[index+1:]
+print('\nEmail address: ',email)
+print('\nUser name is: ',username)
+print('\nDomain name is: ',domain)
